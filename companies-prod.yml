@@ -1,0 +1,10 @@
+spring:
+
+  datasource:
+    username: datas
+    url: jdbc:postgresql://localhost:5433/companies
+    password: costas
+  
+  hikari:
+      maximum-pool-size: '5'
+      connection-timeout: '20000'
